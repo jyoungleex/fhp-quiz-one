@@ -1,0 +1,16 @@
+<h1>hello, world!</h1>
+<p>welcome to quiz one.</p>
+<br />
+
+<h1>Write down what you spend every day for Quiz Two!</h1>
+<p>Guilt is the best budgetary motivator.</p>
+<% @costs.each do |cost| %>
+  <div class = "style-box col-xs-3 col-xs-offset-2">
+    <h3><%= cost.item %><br />
+    <%= cost.description %></h3>
+    <h2><%= "$ #{number_with_precision(cost.price, :precision => 2)}" %></h2><br />
+  </div>
+<% end %>
+<div class="clear"></div>
+<br /><br />
+<p>Buy something new? <%= link_to "Click here.", new_cost_path %></p>

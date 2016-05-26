@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,200);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+// Place all the styles related to the colors controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  color: #00cccc;
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  font-style: italic;
+  text-shadow: 1px 1px #7fffd4;
+  line-height: 50%;
+  text-align: center;
+  font-weight: 300;
+}
+
+h2 {
+  color: #00cccc;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+p {
+  color: #1e1e1e;
+  font-family: 'Helvetica Neue', 'Indie Flower', Arial, Helvetica, serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.style-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 5px;
+  margin-botom: 10px; 
+  padding: 15px;
+}
+
+.clear {
+  clear: both;
+}

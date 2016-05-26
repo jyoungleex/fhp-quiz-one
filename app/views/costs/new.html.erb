@@ -1,0 +1,13 @@
+<h1>What did you buy today?</h1>
+<br />
+<div class="style-box col-xs-6 col-xs-offset-3">
+<br />
+<%= simple_form_for @cost do |f| %>
+  <%= f.input :item %><br />
+  <%= f.input :description %><br />
+  <%= f.input :price %><br />
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-primary' %>
+<% end %>
+<br />
+</div>
